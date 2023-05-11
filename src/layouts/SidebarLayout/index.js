@@ -40,17 +40,22 @@ const SidebarLayout = () => {
         <Sidebar />
         <Box
           sx={{
-            position: 'relative',
+            // position: 'sticky',
             zIndex: 5,
             display: 'block',
             flex: 1,
             pt: `${theme.header.height}`,
             [theme.breakpoints.up('lg')]: {
               ml: `${theme.sidebar.width}`
-            }
+            },
+            color: 'blue'
           }}
         >
-          <Box display="block">
+          <Box sx={{
+             display:"block",color: 'while'
+          }}
+            
+            >
             <Outlet />
           </Box>
         </Box>
