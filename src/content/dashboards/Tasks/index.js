@@ -138,7 +138,7 @@ function DashboardTasks() {
             indicatorColor="primary"
           >
             {tabs.map((tab) => (
-              <Tab key={tab.value} label={tab.label} value={tab.value} />
+              <Tab style={{ zIndex: '2' }} key={tab.value} label={tab.label} value={tab.value} />
             ))}
           </Tabs>
         </TabsContainerWrapper>

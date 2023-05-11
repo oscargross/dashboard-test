@@ -147,7 +147,7 @@ const routes = [
       },
       {
         path: 'transactions',
-        element: <Transactions />
+        element: <></> //<Transactions />
       },
       {
         path: 'profile',

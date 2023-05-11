@@ -98,7 +98,7 @@ function Logo() {
 
   return (
     <TooltipWrapper
-      title="Tokyo Free Black React Javascript Admin Dashboard"
+      title="Papamoney Dashboard"
       arrow
     >
       <LogoWrapper to="/overview">

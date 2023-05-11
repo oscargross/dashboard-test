@@ -22,6 +22,7 @@ import ExpandMoreTwoToneIcon from '@mui/icons-material/ExpandMoreTwoTone';
 import AccountBoxTwoToneIcon from '@mui/icons-material/AccountBoxTwoTone';
 import LockOpenTwoToneIcon from '@mui/icons-material/LockOpenTwoTone';
 import AccountTreeTwoToneIcon from '@mui/icons-material/AccountTreeTwoTone';
+import ConnectButton from 'src/components/ConnectButton';
 
 const UserBoxButton = styled(Button)(
   ({ theme }) => `
@@ -78,7 +79,8 @@ function HeaderUserbox() {
 
   return (
     <>
-      <UserBoxButton color="secondary" ref={ref} onClick={handleOpen}>
+      <ConnectButton />
+      {/* <UserBoxButton color="secondary" ref={ref} onClick={handleOpen}>
         <Avatar variant="rounded" alt={user.name} src={user.avatar} />
         <Hidden mdDown>
           <UserBoxText>
@@ -140,7 +142,7 @@ function HeaderUserbox() {
             Sign out
           </Button>
         </Box>
-      </Popover>
+      </Popover> */}
     </>
   );
 }
